@@ -5,7 +5,6 @@
       "name": ".NET Core Docker Launch (console)",
       "type": "coreclr",
       "request": "launch",
-      // "preLaunchTask": "buildForDebug",
       "program": "/var/runtime/MockBootstraps.dll",
       "args": ["test::test.Function::FunctionHandler", "{\"foo\":\"bar\"}"],
       "cwd": "/var/task",
