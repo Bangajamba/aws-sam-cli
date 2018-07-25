@@ -4,9 +4,9 @@ This project was built to test dotnet core 2.0/2.1 debugging within the lambda d
 
 ## Setup & Run
 
-1. `PS:> docker pull lambci/lambda:build-dotnetcore2.1`
-1. `PS:> docker pull lambci/lambda:dotnetcore2.1`
-1. `PS:> .\run.ps1`
+1. `> docker pull lambci/lambda:build-dotnetcore2.1`
+1. `> docker pull lambci/lambda:dotnetcore2.1`
+1. `> .\run.ps1` on windows or `> chmod +x run.sh && ./run.sh` on linux/mac
 1. Set a breakpoint in Function.cs
 1. Run the vscode _.NET Core Docker Launch (console)_ launch task (F5)
 1. Profit!
