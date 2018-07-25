@@ -10,3 +10,5 @@ RUN yum update \
 
 # Sleep until a debugger is attached
 ENTRYPOINT ["/bin/bash", "-c", "sleep infinity"]
+
+# ENTRYPOINT ["/var/lang/bin/dotnet", "/var/runtime/MockBootstraps.dll"]

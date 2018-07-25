@@ -11,6 +11,12 @@
       "sourceFileMap": {
         "/var/task": "${workspaceRoot}"
       },
+      "logging": {
+        "engineLogging": true,
+        "exceptions": true,
+        "moduleLoad": true,
+        "programOutput": true
+      },
       "pipeTransport": {
         "pipeProgram": "docker",
         "pipeCwd": "${workspaceRoot}",
